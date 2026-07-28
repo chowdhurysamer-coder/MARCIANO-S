@@ -1,0 +1,16 @@
+{
+  "_comment_1": "MARCIANO'S — this file controls the availability calendar on the site.",
+  "_comment_2": "Add each BOOKED Saturday to the 'booked' list below, format YYYY-MM-DD.",
+  "_comment_3": "Any Saturday NOT in this list shows as OPEN. Remove a date to reopen it.",
+  "_comment_4": "The site shows the next three months of Saturdays automatically.",
+  "_comment_5": "SEED DATA: the dates below are an obviously fake alternating pattern. Replace with real bookings before launch.",
+  "booked": [
+    "2026-08-01",
+    "2026-08-15",
+    "2026-08-29",
+    "2026-09-12",
+    "2026-09-26",
+    "2026-10-10",
+    "2026-10-24"
+  ]
+}
