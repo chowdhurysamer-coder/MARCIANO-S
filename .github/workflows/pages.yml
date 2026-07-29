@@ -1,8 +1,9 @@
 name: Deploy to GitHub Pages
 
+# Optional second deploy path. GitHub Pages must first be enabled once by a
+# repo admin (Settings -> Pages -> Source: GitHub Actions) — the Actions token
+# cannot enable it. After that, run this workflow manually from the Actions tab.
 on:
-  push:
-    branches: [claude/marcianos-pizza-truck-4bxo2g]
   workflow_dispatch:
 
 permissions:
